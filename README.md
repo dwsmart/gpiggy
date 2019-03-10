@@ -19,4 +19,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+In the API folder there is a mysql database dump, and a php file, set up the database and associated php file, then change line 51 in pages/_vue to point to your api.
