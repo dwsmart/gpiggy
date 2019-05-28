@@ -7,7 +7,8 @@
       <p v-html="cat.category_desc" />
       <div class="flex-container">
         <div 
-          v-for="piggy in pig"
+          v-for="(piggy, index) in pig"
+          :key="index"
           class="flex-item"
         >
           <nuxt-link :to="'/' + piggy.request">
